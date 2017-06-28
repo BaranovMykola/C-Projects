@@ -1,0 +1,33 @@
+﻿Build started 30/09/2016 01:10:39 PM.
+     1>Project "d:\Studying\Programming\Projects\My projects\MathLogic\MathLogic.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "MathLogic - Source.cpp"
+         MathLogic - Source.cpp
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(29): error C2143: syntax error: missing ';' before '<'
+         d:\studying\programming\projects\my projects\mathlogic\operation.h(31): note: see reference to class template instantiation 'Operation<_TyL,_TyR>' being compiled
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(29): error C2433: 'Operation<_TyL,_TyR>::Opreation': 'virtual' not permitted on data declarations
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(29): error C2238: unexpected token(s) preceding ';'
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(30): error C2143: syntax error: missing ';' before '<'
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(30): error C2433: 'Operation<_TyL,_TyR>::Opreation': 'virtual' not permitted on data declarations
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(30): error C2238: unexpected token(s) preceding ';'
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(38): error C2143: syntax error: missing ';' before '<'
+         d:\studying\programming\projects\my projects\mathlogic\operation.h(59): note: see reference to class template instantiation 'And<_TyL,_TyR>' being compiled
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(38): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(39): error C2143: syntax error: missing ';' before '<'
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(66): error C2143: syntax error: missing ';' before '<'
+         d:\studying\programming\projects\my projects\mathlogic\operation.h(68): note: see reference to class template instantiation 'Or<_TyL,_TyR>' being compiled
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(66): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(66): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(67): error C2143: syntax error: missing ';' before '<'
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(67): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\studying\programming\projects\my projects\mathlogic\operation.h(67): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>Done Building Project "d:\Studying\Programming\Projects\My projects\MathLogic\MathLogic.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.48

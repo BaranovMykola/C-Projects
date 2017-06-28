@@ -1,0 +1,25 @@
+﻿Build started 06/09/2016 06:21:42 PM.
+     1>Project "D:\Studying\Programming\Projects\My projects\Relation\Relation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "Relation - Source.cpp" Relation.cpp
+         Relation.cpp
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(6): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(9): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(28): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(30): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(39): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(58): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(60): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(72): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(74): warning C4018: '<': signed/unsigned mismatch
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(111): error C2556: 'IteratorMatrix _Bin_matrix::IteratorMatrix::operator ++(void)': overloaded function differs only by return type from '_Bin_matrix::IteratorMatrix _Bin_matrix::IteratorMatrix::operator ++(void)'
+         d:\studying\programming\projects\my projects\relation\relation.h(39): note: see declaration of '_Bin_matrix::IteratorMatrix::operator ++'
+     1>d:\studying\programming\projects\my projects\relation\relation.cpp(111): error C2371: '_Bin_matrix::IteratorMatrix::operator ++': redefinition; different basic types
+         d:\studying\programming\projects\my projects\relation\relation.h(39): note: see declaration of '_Bin_matrix::IteratorMatrix::operator ++'
+         Relation - Source.cpp
+         Generating Code...
+     1>Done Building Project "D:\Studying\Programming\Projects\My projects\Relation\Relation.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.84
